@@ -4,11 +4,11 @@ function Skill(props) {
     let blocks = [];
 
     for (let i = 0; i < props.rating; i++) {
-        blocks.push(<div className="bg-red-500 w-1/4 shadow-[inset_0_0px_4px_rgba(0,0,0,0.6)]">&nbsp;</div>);
+        blocks.push(<div key={props.name + "a" + i} className="bg-red-500 w-1/4 shadow-[inset_0_0px_4px_rgba(0,0,0,0.6)]">&nbsp;</div>);
     }
 
     for (let i = 0; i < 10 - props.rating; i++) {
-        blocks.push(<div className="bg-white w-1/4 shadow-[inset_0_0px_4px_rgba(0,0,0,0.6)]">&nbsp;</div>);
+        blocks.push(<div key={props.name + "b" + i} className="bg-white w-1/4 shadow-[inset_0_0px_4px_rgba(0,0,0,0.6)]">&nbsp;</div>);
     }
 
     return (<div className="bg-white text-xl w-1/4 flex flex-col gap-3 p-2 shadow-[0_0px_4px_rgba(0,0,0,0.6)]">

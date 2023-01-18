@@ -8,7 +8,7 @@ function ProjectCard(props) {
     <img src={"img/" + props.image + ".webp"} alt={props.name} />
 
     {isOpen && (
-      <p>open</p>
+      <p>{props.desc}</p>
     )}
     </div>
   );

@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "name": "Snake game",
+            "image": "snakegame",
+            "description": "A simple snake game made with HTML, CSS and JavaScript",
+            "languages": "HTML, CSS, JavaScript",
+            "link": "http://portal.alexpalo.com/snakegame/"
+        },
+        {
+            "name": "Travelling line.",
+            "image": "travellingline",
+            "description": "A simple travelling line made with HTML, CSS and JavaScript",
+            "languages": "HTML, CSS, JavaScript",
+            "link": "http://portal.alexpalo.com/travellingline/"
+        },
+        {
+            "name": "Heikkilän tila",
+            "image": "heikkilantila",
+            "description": "A website for an client who sells berries.",
+            "languages": "WordPress, HTML, CSS, JavaScript",
+            "link": ""
+        }
+    ]
+}
