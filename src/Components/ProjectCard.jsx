@@ -1,16 +1,27 @@
 import React, { useState } from "react";
 
 function ProjectCard(props) {
-  const [isOpen, setIsOpen] = useState(false);
-  return (
-    <div onClick={() => setIsOpen(!isOpen)} className="bg-slate-200 text-xl w-1/3 px-1 flex flex-col gap-1">
-    <p className="text-center bg-white p-2 text-blue-500">{props.name}</p>
-    <img src={"img/" + props.image + ".webp"} alt={props.name} />
+  const project = props.project;
+  const [isOpen, setIsopen] = useState(false);
 
-    {isOpen && (
-      <p>{props.desc}</p>
-    )}
-    </div>
+  const handleClick = (id) => {
+    setIsopen(!isOpen);
+  }
+
+  return (
+    <div onClick={() => handleClick(project.id)}  className="bg-slate-200 text-xl w-1/4 flex flex-col select-none">
+    <p className="text-center bg-white p-2 text-blue-500">{project.name}</p>
+
+    <div className="flex-1 bg-white">
+    {
+      isOpen ? (
+          <p>{project.description}</p>
+        
+      ) : (
+        <img src={"img/" + project.image + ".webp"} alt={project.name} />
+      )
+    }
+    </div></div>
   );
 }
 
