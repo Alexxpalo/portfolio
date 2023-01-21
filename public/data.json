@@ -6,6 +6,7 @@
             "image": "snakegame",
             "description": "A simple snake game made with HTML, CSS and JavaScript",
             "languages": "HTML, CSS, JavaScript",
+            "icons": ["DiHtml5, DiCss3, DiJavascript1"],
             "link": "http://portal.alexpalo.com/snakegame/"
         },
         {
@@ -14,6 +15,7 @@
             "image": "travellingline",
             "description": "A simple travelling line made with HTML, CSS and JavaScript",
             "languages": "HTML, CSS, JavaScript",
+            "icons": ["DiHtml5"],
             "link": "http://portal.alexpalo.com/travellingline/"
         },
         {
@@ -33,7 +35,7 @@
             "link": ""
         }
     ],
-    "skills": [
+    "techs": [
         {
             "id": "1",
             "name": "Javascript",

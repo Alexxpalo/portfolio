@@ -9,14 +9,16 @@ function ProjectCard(props) {
   }
 
   return (
-    <div onClick={() => handleClick(project.id)}  className="bg-slate-200 text-xl w-1/4 flex flex-col select-none">
-    <p className="text-center bg-white p-2 text-blue-500">{project.name}</p>
+    <div className="bg-slate-200 text-xl w-1/4 max-sm:w-2/3 flex flex-col select-none">
+    <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-center bg-white p-2 text-blue-500">{project.name}</a>
 
-    <div className="flex-1 bg-white">
+    <div className="flex-1 bg-slate-200" onClick={() => handleClick(project.id)}>
     {
       isOpen ? (
+        <div className="p-1 bg-white">
           <p>{project.description}</p>
-        
+        </div>
+
       ) : (
         <img src={"img/" + project.image + ".webp"} alt={project.name} />
       )
