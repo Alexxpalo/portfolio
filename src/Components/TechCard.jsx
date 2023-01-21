@@ -1,4 +1,3 @@
-
 function Tech(props) {
     const tech = props.tech;
     let blocks = [];
@@ -12,7 +11,6 @@ function Tech(props) {
 
     return (
     <div className="bg-white text-xl w-1/4 max-sm:w-full max-sm:p-1 flex flex-col gap-3 p-2 shadow-[0_0px_4px_rgba(0,0,0,0.6)]">
-    
         <div className="text-slate-500 flex items-center"><props.icon size="40"/><p>{tech.name}</p></div>
         <div className="flex gap-1">{blocks}</div>
     </div>

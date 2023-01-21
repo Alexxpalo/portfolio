@@ -62,14 +62,14 @@
         },
         {
             "id": "5",
-            "name": "CSS",
-            "icon": "DiCss3",
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss",
             "rating": "7"
         },
         {
             "id": "6",
-            "name": "HTML",
-            "icon": "DiHtml5",
+            "name": "Wordpress",
+            "icon": "DiWordpress",
             "rating": "8"
         }
     ]
