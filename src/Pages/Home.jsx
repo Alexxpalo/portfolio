@@ -19,7 +19,7 @@ function Home() {
 
     return (
         <div className="mx-80 max-xl:mx-20 max-md:mx-0 flex flex-col gap-16">
-            
+
             <div className="bg-white py-5 drop-shadow-xl">
                 <h1 className="text-4xl ml-20 mt-5">whoami</h1>
                 <p className="text-xl mx-10 max-md:mx-5 mt-5">
@@ -43,7 +43,7 @@ function Home() {
 
             <div className="bg-slate-200 w-full gap-y-5 gap-x-1 flex flex-wrap max-sm:flex-col max-sm:items-center justify-around">
                 {
-                    projects.map((project) => {
+                    projects.map((project) => { //TODO Add icons to projects
                         return <ProjectCard key={project.name} project={project}/>
                     })
                 }
