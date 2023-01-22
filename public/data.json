@@ -4,26 +4,30 @@
             "id": "1",
             "name": "Snake game",
             "image": "snakegame",
-            "description": "A simple snake game made with HTML, CSS and JavaScript",
+            "description": "A simple snake game made with HTML, CSS and JavaScript for practice. The user can controll the snake with WASD. Each time the snake eats a food, the snake grows, score increases and an obstacle is spawned.",
+            "status": "Finished",
             "languages": "HTML, CSS, JavaScript",
-            "icons": ["DiHtml5, DiCss3, DiJavascript1"],
+            "icons": ["DiHtml5", "DiCss3", "DiJavascript1"],
             "link": "http://portal.alexpalo.com/snakegame/"
         },
         {
             "id": "2",
             "name": "Travelling line.",
             "image": "travellingline",
-            "description": "A simple travelling line made with HTML, CSS and JavaScript",
+            "description": "A simple travelling line made with HTML, CSS and JavaScript. The user can controll the line length and speed. Also the ball size is customizable.",
+            "status": "Finished",
             "languages": "HTML, CSS, JavaScript",
-            "icons": ["DiHtml5"],
+            "icons": ["DiHtml5", "DiCss3", "DiJavascript1"],
             "link": "http://portal.alexpalo.com/travellingline/"
         },
         {
             "id": "3",
             "name": "Heikkilän tila",
             "image": "heikkilantila",
-            "description": "A website for an client who sells berries.",
+            "description": "A website for an client who sells berries. The website is made with WordPress and the theme is made with Adobe XD. This project is an collaboration with a classmate.",
+            "status": "In progress",
             "languages": "WordPress, HTML, CSS, JavaScript",
+            "icons": ["SiAdobexd", "DiWordpress"],
             "link": ""
         },
         {
@@ -31,8 +35,10 @@
             "name": "WPHallinta",
             "image": "heikkilantila",
             "description": "A wordpress plugin for managing products, reservations and news.",
+            "status": "In progress",
             "languages": "WordPress, PHP, HTML, CSS, JavaScript",
-            "link": ""
+            "icons": ["DiWordpress", "DiPhp", "SiMysql"],
+            "link": "https://github.com/Alexxpalo/WPHallinta"
         }
     ],
     "techs": [
@@ -46,7 +52,7 @@
             "id": "2",
             "name": "ReactJS",
             "icon": "DiReact",
-            "rating": "6"
+            "rating": "7"
         },
         {
             "id": "3",
@@ -64,7 +70,7 @@
             "id": "5",
             "name": "Tailwind CSS",
             "icon": "SiTailwindcss",
-            "rating": "7"
+            "rating": "8"
         },
         {
             "id": "6",
