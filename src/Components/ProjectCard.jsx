@@ -7,7 +7,7 @@ function ProjectCard(props) {
   const handleClick = (id) => {
     setIsopen(!isOpen);
   }
-
+  
   return (
     <div className="bg-slate-200 text-xl w-1/4 max-sm:w-2/3 flex flex-col select-none">
     <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-center bg-white p-2 text-blue-500 hover:bg-sky-200">{project.name}</a>

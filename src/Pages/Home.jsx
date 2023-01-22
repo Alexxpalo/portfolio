@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import * as DiIcon from 'react-icons/di';
-import * as SiIcon from 'react-icons/si';
 import ProjectCard from "../Components/ProjectCard";
 import TechCard from "../Components/TechCard";
 
 function Home() {
-    const Icon = Object.assign({}, DiIcon, SiIcon);
     const [techs, setTechs] = useState([]);
     const [projects, setProjects] = useState([]);
 
@@ -35,7 +32,7 @@ function Home() {
                 <div className="pb-10 max-sm:flex-col max-sm:gap-5 flex flex-wrap justify-evenly gap-5 drop-shadow-lg">
                 {
                     techs.map((tech) => {
-                        return <TechCard key={tech.id} tech={tech} icon={Icon[tech.icon]} />
+                        return <TechCard key={tech.id} tech={tech} />
                     })
                 }
                 </div>
