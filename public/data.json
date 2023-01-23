@@ -7,7 +7,7 @@
             "description": "A simple snake game made with HTML, CSS and JavaScript for practice. The user can controll the snake with WASD. Each time the snake eats a food, the snake grows, score increases and an obstacle is spawned.",
             "status": "Finished",
             "languages": "HTML, CSS, JavaScript",
-            "icons": ["DiHtml5", "DiCss3", "DiJavascript1"],
+            "icons": ["SiHtml5", "SiCss3", "SiJavascript"],
             "link": "http://portal.alexpalo.com/snakegame/"
         },
         {
@@ -17,7 +17,7 @@
             "description": "A simple travelling line made with HTML, CSS and JavaScript. The user can controll the line length and speed. Also the ball size is customizable.",
             "status": "Finished",
             "languages": "HTML, CSS, JavaScript",
-            "icons": ["DiHtml5", "DiCss3", "DiJavascript1"],
+            "icons": ["SiHtml5", "SiCss3", "SiJavascript"],
             "link": "http://portal.alexpalo.com/travellingline/"
         },
         {
@@ -27,7 +27,7 @@
             "description": "A website for an client who sells berries. The website is made with WordPress and the theme is made with Adobe XD. This project is an collaboration with a classmate.",
             "status": "In progress",
             "languages": "WordPress, HTML, CSS, JavaScript",
-            "icons": ["SiAdobexd", "DiWordpress"],
+            "icons": ["SiAdobexd", "SiWordpress"],
             "link": "https://www.linkedin.com/in/alexander-palosaari-23a9b8237/"
         },
         {
@@ -37,7 +37,7 @@
             "description": "A wordpress plugin for managing products, reservations and news.",
             "status": "In progress",
             "languages": "WordPress, PHP, HTML, CSS, JavaScript",
-            "icons": ["DiWordpress", "DiPhp", "SiMysql"],
+            "icons": ["SiWordpress", "SiPhp", "SiMysql"],
             "link": "https://github.com/Alexxpalo/WPHallinta"
         }
     ],
@@ -45,25 +45,25 @@
         {
             "id": "1",
             "name": "Javascript",
-            "icon": "DiJavascript1",
+            "icon": "SiJavascript",
             "rating": "8"
         },
         {
             "id": "2",
             "name": "ReactJS",
-            "icon": "DiReact",
+            "icon": "SiReact",
             "rating": "7"
         },
         {
             "id": "3",
             "name": "NodeJS",
-            "icon": "DiNodejsSmall",
+            "icon": "SiNodedotjs",
             "rating": "5"
         },
         {
             "id": "4",
             "name": "PHP",
-            "icon": "DiPhp",
+            "icon": "SiPhp",
             "rating": "7"
         },
         {
@@ -75,7 +75,7 @@
         {
             "id": "6",
             "name": "Wordpress",
-            "icon": "DiWordpress",
+            "icon": "SiWordpress",
             "rating": "8"
         }
     ]

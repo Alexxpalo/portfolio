@@ -1,11 +1,10 @@
 import React from "react";
-import * as DiIcon from "react-icons/di";
 import * as SiIcon from "react-icons/si";
 
 function Tech(props) {
     const tech = props.tech;
     let blocks = [];
-    const Icon = Object.assign({}, DiIcon, SiIcon);
+    const Icon = Object.assign({}, SiIcon);
 
     for (let i = 0; i < tech.rating; i++) {
         blocks.push(<div key={tech.name + "a" + i} className="bg-red-500 w-1/4 shadow-[inset_0_0px_4px_rgba(0,0,0,0.6)]">&nbsp;</div>);
