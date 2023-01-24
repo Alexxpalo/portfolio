@@ -7,7 +7,7 @@
             "description": "A simple snake game made with HTML, CSS and JavaScript for practice. The user can controll the snake with WASD. Each time the snake eats a food, the snake grows, score increases and an obstacle is spawned.",
             "status": "Finished",
             "languages": "HTML, CSS, JavaScript",
-            "icons": ["SiHtml5", "SiCss3", "SiJavascript"],
+            "icons": ["html5", "css3", "javascript"],
             "link": "http://portal.alexpalo.com/snakegame/"
         },
         {
@@ -17,7 +17,7 @@
             "description": "A simple travelling line made with HTML, CSS and JavaScript. The user can controll the line length and speed. Also the ball size is customizable.",
             "status": "Finished",
             "languages": "HTML, CSS, JavaScript",
-            "icons": ["SiHtml5", "SiCss3", "SiJavascript"],
+            "icons": ["html5", "css3", "javascript"],
             "link": "http://portal.alexpalo.com/travellingline/"
         },
         {
@@ -27,7 +27,7 @@
             "description": "A website for an client who sells berries. The website is made with WordPress and the theme is made with Adobe XD. This project is an collaboration with a classmate.",
             "status": "In progress",
             "languages": "WordPress, HTML, CSS, JavaScript",
-            "icons": ["SiAdobexd", "SiWordpress"],
+            "icons": ["adobexd", "wordpress"],
             "link": "https://www.linkedin.com/in/alexander-palosaari-23a9b8237/"
         },
         {
@@ -36,8 +36,8 @@
             "image": "heikkilantila",
             "description": "A wordpress plugin for managing products, reservations and news.",
             "status": "In progress",
-            "languages": "WordPress, PHP, HTML, CSS, JavaScript",
-            "icons": ["SiWordpress", "SiPhp", "SiMysql"],
+            "languages": "Wordpress, PHP, HTML, CSS, JavaScript",
+            "icons": ["wordpress", "php", "mysql"],
             "link": "https://github.com/Alexxpalo/WPHallinta"
         }
     ],
@@ -45,37 +45,37 @@
         {
             "id": "1",
             "name": "Javascript",
-            "icon": "SiJavascript",
+            "icon": "javascript",
             "rating": "8"
         },
         {
             "id": "2",
             "name": "ReactJS",
-            "icon": "SiReact",
+            "icon": "react",
             "rating": "7"
         },
         {
             "id": "3",
             "name": "NodeJS",
-            "icon": "SiNodedotjs",
+            "icon": "nodedotjs",
             "rating": "5"
         },
         {
             "id": "4",
             "name": "PHP",
-            "icon": "SiPhp",
+            "icon": "php",
             "rating": "7"
         },
         {
             "id": "5",
             "name": "Tailwind CSS",
-            "icon": "SiTailwindcss",
+            "icon": "tailwindcss",
             "rating": "8"
         },
         {
             "id": "6",
             "name": "Wordpress",
-            "icon": "SiWordpress",
+            "icon": "wordpress",
             "rating": "8"
         }
     ]
