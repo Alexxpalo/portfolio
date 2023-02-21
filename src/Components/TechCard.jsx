@@ -16,7 +16,7 @@ function Tech(props) {
     return (
         <div className="bg-white text-xl w-1/4 max-sm:w-full max-sm:p-1 flex flex-col gap-3 p-2 shadow-[0_0px_4px_rgba(0,0,0,0.6)]">
             <div className="text-slate-500 flex items-center justify-center gap-3">
-                <ReactSVG src={"icons/" + tech.icon + ".svg"} className="h-10 w-10 fill-slate-500"/>
+                <ReactSVG src={"icons/" + tech.icon + ".svg"} className="h-10 w-10 fill-slate-500" />
                 <p>{tech.name}</p>
             </div>
             <div className="flex gap-1">{blocks}</div>
