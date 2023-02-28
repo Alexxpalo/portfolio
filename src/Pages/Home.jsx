@@ -25,7 +25,9 @@ function Home() {
                         My goal is to learn web development in a versatile way, both on the front-end and back-end.<br />
                         I have been independently learning website creation for 2 years now, and have acquired basic knowledge of creating websites.<br />
                         Now, while studying at OSAO to become a software developer, I have deepened my knowledge and learned new techniques and tools.<br /><br />
-                        I want to continue studying and developing as a web software developer and strive to create high-quality and functional applications for both clients and myself.</p>
+                        I want to continue studying and developing as a web software developer and strive to create high-quality and functional applications for both clients and myself.<br /> <br />
+                        I'm also participating in
+                        <a className="text-blue-500" href="https://taitaja2023.fi/en/skills-categories/information-and-communication-technology/206-web-design/"> Taitaja2023 finals in May 2023.</a></p>
                     <div className="self-end">
                         <img src="./profilepic.webp" alt="me" width="100%" height="100%" />
                     </div>
