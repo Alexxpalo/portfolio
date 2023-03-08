@@ -39,6 +39,16 @@
             "languages": "Wordpress, PHP, HTML, CSS, JavaScript",
             "icons": ["wordpress", "php", "mysql"],
             "link": "https://github.com/Alexxpalo/WPHallinta"
+        },
+        {
+            "id": "5",
+            "name": "Weather app",
+            "image": "weather",
+            "description": "A simple weather mobile app made with React native and expo. The user can search for a city and get the current weather and a 2 hour forecast. Shows the temperature, windspeed and an icon. Also shows the estimate of the sunrise and sunset for the next day.",
+            "status": "Finished",
+            "languages": "React native, JavaScript, CSS",
+            "icons": ["react", "javascript", "css3"],
+            "link": "https://github.com/Alexxpalo/weather"
         }
     ],
     "techs": [
